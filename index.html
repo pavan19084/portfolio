@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+
+  <title>
+    Pavan Faldu | Flutter, WebRTC & ML Enthusiast • Software Developer
+  </title>
+
+
+  <meta name="description" content="Pavan Faldu is a Flutter developer passionate about cross-platform apps, real-time communication with WebRTC, and on-device machine learning. Skilled in Firebase, FastAPI, native integration, and plugin development.">
+
+  <meta name="keywords" content="Pavan Faldu, Flutter Developer, Flutter Web, Dart, Firebase, WebRTC, FastAPI, TFLite, Mobile App Developer, Cross Platform Developer, Flutter Projects, ML Integration, Method Channel, Flutter Native Integration, Software Developer Portfolio, Open Source Flutter, VideoSDK, Real-time Communication" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Pavan Faldu</span>
+        </h1>
+        <p> Flutter • WebRTC • MediaSoup • ML — Crafting performant apps across platforms.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Project 1: Cotton Guard -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Cotton Guard</h3>
+              <p>
+                A plant disease detection app using Flutter and TensorFlow Lite. Integrates a CNN model with Grad-CAM explainability and supports multilingual UI. Published in an international research conference.
+              </p>
+              <ul class="work__list">
+                <li>Flutter</li>
+                <li>TFLite</li>
+                <li>ResNet50</li>
+                <li>Grad-CAM</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://github.com/pavan19084/Cotton-Gaurd" class="link__text">View Project <span>&rarr;</span></a>
+                <a href="https://github.com/pavan19084/Cotton-Gaurd"><img src="./images/github.svg" class="work__code" alt="GitHub"></a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-cotton-guard.png" class="work__image" alt="Cotton Guard" onerror="this.src='./images/placeholder.jpg'" />
+            </div>
+          </div>
+
+
+          <div class="work__box work__box--reverse work__box--alt">
+            <div class="work__text">
+              <h3>Picture-in-Picture Mode in Flutter</h3>
+              <p>
+                Implemented PiP mode using VideoSDK for video calls. Converted WebRTC video frames into AVPlayer-compatible buffers on iOS and handled native Android PiP via platform channels.
+              </p>
+              <ul class="work__list">
+                <li>Flutter</li>
+                <li>VideoSDK</li>
+                <li>WebRTC</li>
+                <li>AVPlayer / Android PiP</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://docs.videosdk.live/flutter/guide/video-and-audio-calling-api-sdk/render-media/picture-in-picture-mode" class="link__text" target="_blank">View Docs <span>&rarr;</span></a>
+                <a href="https://github.com/videosdk-live/videosdk-flutter-pip-mode-example"><img src="./images/github.svg" class="work__code" alt="GitHub"></a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-pip.png" class="work__image" alt="PiP Mode" onerror="this.src='./images/placeholder.jpg'" />
+            </div>
+          </div>
+
+          <!-- Project 3: Call Trigger App -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Call Trigger App</h3>
+              <p>
+                Built a real-time call notification system using Firebase, CallKeep, and PushKit. Integrated deep linking and native call UI for both iOS and Android using VideoSDK.
+              </p>
+              <ul class="work__list">
+                <li>Flutter</li>
+                <li>Firebase</li>
+                <li>CallKeep</li>
+                <li>PushKit</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://github.com/videosdk-live/videosdk-rtc-flutter-call-trigger-example" class="link__text" target="_blank">View GitHub <span>&rarr;</span></a>
+                <a href="https://github.com/videosdk-live/videosdk-rtc-flutter-call-trigger-example"><img src="./images/github.svg" class="work__code" alt="GitHub"></a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-call-trigger.png" class="work__image" alt="Call Trigger App" onerror="this.src='./images/placeholder.jpg'" />
+            </div>
+          </div>
+
+          <!-- Project 4: MelodyStream -->
+          <div class="work__box work__box--reverse work__box--alt">
+            <div class="work__text">
+              <h3>MelodyStream</h3>
+              <p>
+                A Spotify-inspired music streaming app built using MVVM architecture with a FastAPI backend. Includes PostgreSQL database, Hive for local storage, and responsive audio playback UI.
+              </p>
+              <ul class="work__list">
+                <li>Flutter</li>
+                <li>FastAPI</li>
+                <li>PostgreSQL</li>
+                <li>Hive</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://github.com/pavan19084/Music-app" class="link__text" target="_blank">View Project <span>&rarr;</span></a>
+                <a href="https://github.com/pavan19084/Music-app"><img src="./images/github.svg" class="work__code" alt="GitHub"></a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-melodystream.png" class="work__image" alt="MelodyStream" onerror="this.src='./images/placeholder.jpg'" />
+            </div>
+          </div>
+
+          <!-- Project 5: QuickFlicks -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>QuickFlicks</h3>
+              <p>
+                A TikTok-style video sharing app with Firebase authentication, video compression, captions, and social features including likes, comments, and user following. Inspired by a tutorial series, but fully custom-built.
+              </p>
+              <ul class="work__list">
+                <li>Flutter</li>
+                <li>Firebase</li>
+                <li>GetX</li>
+                <li>Cloud Storage</li>
+              </ul>
+              
+              <div class="work__links">
+                <a href="https://github.com/pavan19084/quick_flicks" class="link__text" target="_blank">View Project <span>&rarr;</span></a>
+                <a href="https://github.com/pavan19084/quick_flicks"><img src="./images/github.svg" class="work__code" alt="GitHub"></a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-quickflicks.png" class="work__image" alt="QuickFlicks" onerror="this.src='./images/placeholder.jpg'" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- experince -->
+    <section class="experience" id="experience">
+      <div class="row">
+        <h2>Experience</h2>
+
+        <div class="experience__box">
+          <div class="experience__header">
+            <img src="./images/videosdk-logo.jpeg" alt="VideoSDK Logo" class="experience__logo" />
+            <h3>VideoSDK.live</h3>
+          </div>
+          <p class="experience__meta">SDK Intern • On-site • Dec 2024 – Present</p>
+          <ul class="experience__list">
+            <li>Built real-time communication features using Flutter SDK across Android, iOS, and Web.</li>
+            <li>Developed and documented core features like Call Trigger, E2EE, PiP mode, and image capture/upload.</li>
+            <li>Implemented quickstart templates using BLoC and Riverpod for Flutter SDK onboarding.</li>
+            <li>Enhanced the internal WebRTC fork for the virtual background and native MediaSoup logic.</li>
+            <li>Resolved multi-stream issues in Flutter SDK and contributed to advanced stream control (pause/resume).</li>
+            <li>Maintained and published the Flutter SDK on pub.dev, improving score from 105 → 160.</li>
+            <li>Implemented Picture-in-Picture mode for both Flutter and Android SDKs.</li>
+          </ul>
+        </div>
+
+        <div class="experience__box">
+          <div class="experience__header">
+            <img src="./images/charusat-logo.jpeg" alt="Charusat Logo" class="experience__logo" />
+            <h3>Charusat University</h3>
+          </div>
+          <p class="experience__meta">Intern • On-site • May 2024 – June 2024</p>
+          <ul class="experience__list">
+            <li>Developed internal tools for managing internship announcements, important PDFs, and documentation workflows.</li>
+            <li>Built a centralized dashboard to streamline communication between students and placement coordinators.</li>
+            <li>Worked collaboratively with university staff to digitize and simplify manual tracking processes.</li>
+          </ul>
+        </div>
+
+        <div class="experience__box">
+          <div class="experience__header">
+            <img src="./images/spectrics-logo.jpeg" alt="Spectrics Logo" class="experience__logo" />
+            <h3>Spectrics Solutions</h3>
+          </div>
+          <p class="experience__meta">Flutter Intern • On-site • May 2023 – June 2023</p>
+          <ul class="experience__list">
+            <li>Learned fundamentals of Flutter development and created the early version of QuickFlicks using MVC architecture.</li>
+            <li>Gained hands-on experience with Firebase for authentication and data storage.</li>
+            <li>Worked closely with the team to understand UI/UX implementation and state handling.</li>
+          </ul>
+        </div>
+
+
+
+      </div>
+    </section>
+
+
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
+          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
+          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
+          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
+          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
+          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
+              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
+              in vel, ex quam quidem quos mollitia labore aut sunt eius
+              ratione molestiae fuga veniam facere similique voluptate.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a fast-performing and user-friendly website to
+          represent your product or business? or looking for any kind of
+          consultation? or want to ask questions? or have some advice for me
+          or just want to say "Hi 👋" in any case feel free to Let me know. I
+          will do my best to respond back. 😊 The quickest way to reach out to
+          me is via an email.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
